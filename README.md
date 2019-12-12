@@ -5,7 +5,7 @@
   Maven 3
   Podam lib (generate test data automatically)
   
-2. Technical Debt
+2. Technical Debt:
   Because this project is just POC so that's why i do it simple and fast as possible as. However, if you want to base on it to   build real project. You should be awared some potential issues following:
   - Problem N + 1 query:
     Now, in entity, i am using One-To-Many relationship to map related entities in main entity. So It causes performance
