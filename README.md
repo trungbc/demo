@@ -19,3 +19,4 @@ Because this project is just POC so that's why i do it simple and fast as possib
 - POST /gpx/upload: Upload and store .gpx file
 - GET /gpx/{id}: get detail gpx file by id
 - GET /gpx/track: get latest track list. By default, it will return 10 latest track. If you would like to get more, you should use param "size" with this API
+4. Test: you can find postman collections and diagrams in folder sample of the project
