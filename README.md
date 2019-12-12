@@ -11,11 +11,11 @@
     Now, in entity, i am using One-To-Many relationship to map related entities in main entity. So It causes performance
     problem if data is large, because we need to run N + 1 query. Refer to this link to know more detail about the problem :
     https://dzone.com/articles/how-identify-and-resilve-n1.
-    Solution: I suggest use SpringJDBC instead of Spring JPA
+  - Solution: I suggest use SpringJDBC instead of Spring JPA
   - Read and process large file:
     If we read and process whole large file as 5Mb,10Mb.... It's problem about performance
-    Solution: read and process each partial file.
-    Sugesstion: use mapstruct lib to map back and forth between DTO and Entity if having too much
+  - Solution: read and process each partial file.
+  - Sugesstion: use mapstruct lib to map back and forth between DTO and Entity if having too much
 3. Endpoint
     - POST /gpx/upload: Upload and store .gpx file
     - GET /gpx/{id}: get detail gpx file by id
