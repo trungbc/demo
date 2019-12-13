@@ -11,7 +11,7 @@
     Now, in entity, i am using One-To-Many relationship to map related entities in main entity. So It causes performance
     problem if data is large, because we need to run N + 1 query. Refer to this link to know more detail about the problem :
     https://dzone.com/articles/how-identify-and-resilve-n1.
-  - Solution: I suggest use SpringJDBC instead of Spring JPA and use join query instead of mapping related entity
+  - Solution: I suggest use Spring-Data-JDBC instead of Spring-Data-JPA and use join query instead of mapping related entity
   - Read and process large file:
     If we read and process whole large file as 5Mb,10Mb.... It's problem about performance
   - Solution: read and process each partial file.
